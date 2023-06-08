@@ -4,7 +4,12 @@
 ~~~
 "thefunpower/rpc_php": "dev-main" 
 ~~~
- 
+
+## curl超时
+~~~
+yar.timeout = 6000
+~~~
+
 ## RPC
 
 服务端
