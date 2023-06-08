@@ -54,8 +54,8 @@ class rpc_php{
             $client->setOpt(YAR_OPT_TOKEN, $token);   
         } 
         $client->SetOpt(YAR_OPT_PERSISTENT, 1);
-        $client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 6000);  
-        $client->SetOpt(YAR_OPT_TIMEOUT, 6000);  
+        $client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 1000*30);  
+        $client->SetOpt(YAR_OPT_TIMEOUT, 1000*60);  
         return $client;
     }
     /**
